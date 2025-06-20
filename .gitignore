@@ -1,32 +1,31 @@
-# Prerequisites
-*.d
+# CMake / Build files
+build/
+Build/
+build-*/
+CMakeCache.txt
+CMakeLists.txt.user
+CMakeFiles/
+*.xcodeproj/
+*.sln
+*.suo
+*.vcxproj*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IDE-specific
+.vs/
+.vscode/
 
-# Precompiled Headers
-*.gch
-*.pch
+# JUCE-specific
+JuceLibraryCode/
+*.jucer
 
-# Compiled Dynamic libraries
+# Binaries
+*.a
+*.lib
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
 *.app
+
+# Other
+*.DS_Store
